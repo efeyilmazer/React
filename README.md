@@ -1,2 +1,2 @@
 # React
- Developing React apps and projects.
+React projeleri ve uygulamaları geliştiriyorum.
