@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: fixed ;
+  background-image: linear-gradient(#eefcff , #f6f6d4);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
