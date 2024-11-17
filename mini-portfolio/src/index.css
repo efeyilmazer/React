@@ -4,9 +4,94 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root{
+  --width: 100px;
+  --height: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: fixed ;
   background-image: linear-gradient(#eefcff , #f6f6d4);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.slider {
+  width: 80%;
+  overflow: hidden;
+  mask-image: linear-gradient(to right,
+  transparent,
+  #000 20% 80%,
+  transparent);
+}
+
+.slider .list {
+  position: relative;
+}
+
+.slider .list .item1 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+}
+
+.slider .list .item2 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  animation-delay: 1.2s;
+}
+.slider .list .item3 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  animation-delay: 2.2s;
+}
+.slider .list .item4 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  animation-delay: 3.8s;
+}
+.slider .list .item5 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  animation-delay: 5.4s;
+}
+.slider .list .item6 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  animation-delay: 6.6s;
+}
+.slider .list .item7 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  animation-delay: 7.8s;
+}
+.slider .list .item8 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  animation-delay: 8.9s;
+}
+
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+
+.slider:hover .item {
+  animation-play-state: paused!important;
 }
