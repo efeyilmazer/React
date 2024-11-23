@@ -8,6 +8,9 @@
 :root{
   --width: 100px;
   --height: 50px;
+
+  --width2: 200px;
+  --height2: 200px;
 }
 
 html {
@@ -83,6 +86,64 @@ body {
   animation-delay: 8.9s;
 }
 
+.slider2 {
+  width: 95%;
+  overflow: hidden;
+  mask-image: linear-gradient(to right,
+  transparent,
+  #000 20% 80%,
+  transparent);
+}
+.slider2 .list {
+  position: relative;
+}
+
+.slider2 .list .item1 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun2 10s linear infinite;
+  animation-delay: 1s ;
+}
+.slider2 .list .item2 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun2 10s linear infinite;
+  animation-delay: 2.7s ;
+}
+.slider2 .list .item3 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun2 10s linear infinite;
+  animation-delay: 4.4s ;
+}
+.slider2 .list .item4 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun2 10s linear infinite;
+  animation-delay: 6.1s ;
+}
+.slider2 .list .item5 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun2 10s linear infinite;
+  animation-delay: 7.8s ;
+}
+.slider2 .list .item6 {
+  position: absolute;
+  left: 100%;
+  animation: autoRun2 10s linear infinite;
+  animation-delay: 9.4s ;
+}
+
+@keyframes autoRun2 {
+  from {
+    left: calc(var(--width2) * -1);
+  }
+  to {
+    left: 100%;
+  }
+}
+
 @keyframes autoRun {
   from {
     left: 100%;
@@ -93,5 +154,24 @@ body {
 }
 
 .slider:hover .item {
+  animation-play-state: paused!important;
+}
+
+.slider2:hover .item1 {
+  animation-play-state: paused!important;
+}
+.slider2:hover .item2 {
+  animation-play-state: paused!important;
+}
+.slider2:hover .item3 {
+  animation-play-state: paused!important;
+}
+.slider2:hover .item4 {
+  animation-play-state: paused!important;
+}
+.slider2:hover .item5 {
+  animation-play-state: paused!important;
+}
+.slider2:hover .item6 {
   animation-play-state: paused!important;
 }

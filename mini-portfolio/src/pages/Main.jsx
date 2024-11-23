@@ -13,6 +13,14 @@ import { FaReact } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
 import { DiDotnet } from 'react-icons/di'
 import Prof from './Prof'
+import  Pj1 from "../img/1.png"
+import  Pj2 from "../img/2.png"
+import  Pj3 from "../img/3.png"
+import  Pj4 from "../img/4.png"
+import  Pj5 from "../img/5.png"
+import  Pj6 from "../img/6.png"
+import  Pj7 from "../img/7.png"
+import  Pj8 from "../img/8.png"
 
 const Main = () => {
   return (
@@ -45,6 +53,16 @@ const Main = () => {
               <span className='item item6 flex items-center justify-center gap-2 text-4xl text-[#764abc]/50'><TbBrandRedux/>Redux</span>
               <span className='item item7 flex items-center justify-center gap-2 text-4xl text-[#8892be]/50'><FaPhp/>PHP</span>
               <span className='item item8 flex items-center justify-center gap-2 text-4xl text-[#512BD4]/50'><DiDotnet/>.NET</span>
+            </div>
+          </div>
+          <div className='slider2 h-44 bg-white/70 pt-1 mt-8 max-sm:invisible'>
+            <div className='list flex gap-12'>
+              <span className='item1 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj8} alt="" /></span>
+              <span className='item2 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj4} alt="" /></span>
+              <span className='item3 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj3} alt="" /></span>
+              <span className='item4 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj7} alt="" /></span>
+              <span className='item5 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj1} alt="" /></span>
+              <span className='item6 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj6} alt="" /></span>
             </div>
           </div>
         </div>
