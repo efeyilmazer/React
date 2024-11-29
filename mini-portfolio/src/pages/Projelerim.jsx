@@ -60,7 +60,7 @@ const Projelerim = () => {
     <div className='mb-12'>
       <Navbar/>
       <div className='flex flex-col items-center justify-center'>
-      <h1 className='text-4xl mt-12 font-display mb-4'>Projelerim</h1>
+      <h1 className='text-4xl mt-12 font-display mb-4 max-md:text-2xl'>Projelerim</h1>
       <span className='max-w-[1000px] text-center'>
       <p className='text-xl max-md:pr-4 max-md:pl-4'>Beş sene içerisinde kendimi geliştirmek için oluşturduğum projelerin görsel ve kaynak kodları, Projelerde kullandığım teknolojiler tamamen karışık şekilde HTML Css JS ve React ile oluşmaktadır.</p>
       <p className='text-xl p-4'>Tüm kaynak kodları github linkimde mevcuttur.</p>
