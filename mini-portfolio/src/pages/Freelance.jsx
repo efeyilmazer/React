@@ -9,7 +9,7 @@ const Freelance = () => {
     <div>
       <Navbar/>
       <div className='w-screen flex flex-col items-center justify-center'>
-      <h1 className='text-4xl mt-12 font-display mb-4'>Freelance Projelerim</h1>
+      <h1 className='text-4xl mt-12 font-display mb-4 max-md:text-2xl'>Freelance Projelerim</h1>
       <span className='max-w-[1200px] text-center'>
       <p className='text-xl'>Bu proje sahiplerinin destek için bana başvurmasını beni yetiştiren referanslarıma borçluyum.</p>
       <p className='text-xl'>İçinde bulunduğum üç projede de React kullanarak çeşitli componentler ve sayfalar geliştirdim, iki projede geliştirme ekibindeydim ve bir projeyi baştan aşağı kendim geliştirip teslim ettim. </p>

@@ -8,7 +8,7 @@ const Prof = () => {
     <div>
         <Navbar/>
           <div className='flex flex-col justify-center items-center'>
-             <h1 className='text-4xl mt-12 mb-4 font-display'>Profesyonel Tecrübelerim</h1>
+             <h1 className='text-4xl mt-12 mb-4 font-display max-md:text-2xl'>Profesyonel Tecrübelerim</h1>
              <p className='max-w-[1200px] text-center text-xl'>Çalışma Hayatıma İstanbul Ticaret Odası'nda ofis üstlerimin sınavı sonucunda projenin geliştirme ekibine kabul edilerek başladım. React ve .NET geliştirdiğimiz iki adet projenin geliştirme ekibinde yer aldım.</p>
              <br></br>
              <p className='max-w-[1200px] text-center text-xl'>Ravensoft şirketinde Tam zamanlı olarak React geliştirme ekibinde ve Wordpress destek ekibinde yer aldım, Aynı zamanda şirketin ortağı olan Magento.tr'nin danışman geliştiriciliğini yaptım. Bu şirketteki pozisyonumda ağırlıklı olarak React geliştirdim.</p>
