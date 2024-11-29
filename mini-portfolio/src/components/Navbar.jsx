@@ -10,7 +10,7 @@ const Navbar = () => {
   const navigate = useNavigate()
   return (
 <div className='flex flex-col items-center'>
-<div className='absolute left-2 top-[77px] z-40 flex items-center justify-center gap-2 max-sm:opacity-0'>
+<div className='absolute left-2 top-[77px] z-40 flex items-center justify-center gap-2 max-md:gap-1 max-md:flex-col max-md:pt-12'>
     <span className='text-3xl opacity-50 hover:opacity-100 cursor-pointer active:scale-90'><a href="http://github.com/efeyilmazer" target='_blank'><FaGithubSquare color='#2b3137'/></a></span>
     <span className='text-3xl opacity-50 hover:opacity-100 cursor-pointer active:scale-90'><a href="http://linkedin.com/in/efe-y%C4%B1lmazer-19b822228/" target='_blank'><FaLinkedin color='#0077B5'/></a></span>
     <span className='text-3xl opacity-50 hover:opacity-100 cursor-pointer active:scale-90'><a href="http://instagram.com/efeyilmazer.1" target='_blank'><FaInstagramSquare color='#C13584'/></a></span>
