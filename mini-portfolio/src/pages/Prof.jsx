@@ -20,7 +20,7 @@ const Prof = () => {
                   <h1 className='text-2xl mb-2 max-md:text-xl'>İstanbul Ticaret Odası .NET Developer</h1>
                   <h1 className='text-xl max-md:text-sm'>(2 Ay Stajer)</h1>
                   </div>
-              <p className='w-[950px] max-sm:invisible max-sm:absolute'> &gt; .NET Core ve ASP.NET teknolojileriyle yazılım geliştirme süreçlerine aktif katılım sağladım. <br/>
+              <p className='w-[950px] max-md:w-96 max-md:text-sm'> &gt; .NET Core ve ASP.NET teknolojileriyle yazılım geliştirme süreçlerine aktif katılım sağladım. <br/>
               &gt; Veritabanı yönetimi için SQL Server kullanarak sorgu yazma ve veri işlemlerine katkı sundum. <br/>
               &gt; Web API geliştirme süreçlerinde backend işlemleri gerçekleştirdim ve RESTful API entegrasyonunu sağladım. <br/>
               &gt; Agile (Scrum) metodolojisi ile çalışan ekiplerde sprintlere katılarak yazılım geliştirme süreçlerini öğrendim. <br/>
@@ -35,7 +35,7 @@ const Prof = () => {
                 <h1 className='text-2xl mb-2 max-md:text-xl'>Ravensoft React Developer</h1>
                 <h1 className='text-xl max-md:text-sm'>(6 Ay)</h1>
                 </div>
-                <p className='w-[950px] max-sm:invisible max-sm:absolute'>&gt; React.js ve Redux kullanarak dinamik e-ticaret web siteleri geliştirdim ve mevcut projelere özellikler ekledim. <br/>
+                <p className='w-[950px] max-md:w-96 max-md:text-sm'>&gt; React.js ve Redux kullanarak dinamik e-ticaret web siteleri geliştirdim ve mevcut projelere özellikler ekledim. <br/>
               &gt; Kullanıcı dostu arayüzler oluşturmak için HTML, CSS ve JavaScript ile responsive ve modern tasarımlar gerçekleştirdim. <br/>
               &gt; E-ticaret sitesi için ürün listeleme, sepet, ödeme işlemleri gibi kritik işlevlerin geliştirilmesini sağladım.  <br/>
               &gt; RESTful API'ler ile veri entegrasyonu yaparak ürün bilgilerini, kullanıcı sepetlerini ve sipariş durumlarını dinamik olarak çektim. <br/>

@@ -62,7 +62,7 @@ const Projelerim = () => {
       <div className='flex flex-col items-center justify-center'>
       <h1 className='text-4xl mt-12 font-display mb-4'>Projelerim</h1>
       <span className='max-w-[1000px] text-center'>
-      <p className='text-xl'>Beş sene içerisinde kendimi geliştirmek için oluşturduğum projelerin görsel ve kaynak kodları, Projelerde kullandığım teknolojiler tamamen karışık şekilde HTML Css JS ve React ile oluşmaktadır.</p>
+      <p className='text-xl max-md:pr-4 max-md:pl-4'>Beş sene içerisinde kendimi geliştirmek için oluşturduğum projelerin görsel ve kaynak kodları, Projelerde kullandığım teknolojiler tamamen karışık şekilde HTML Css JS ve React ile oluşmaktadır.</p>
       <p className='text-xl p-4'>Tüm kaynak kodları github linkimde mevcuttur.</p>
       </span>
       <span className='w-[750px] h-2 bg-slate-700/20 mt-4 mb-16 rounded-full'></span>
