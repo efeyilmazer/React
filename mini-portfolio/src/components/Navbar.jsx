@@ -25,15 +25,15 @@ const Navbar = () => {
     </div>
     <div className='flex items-center justify-center w-[720px] text-xl'>
       <span className='max-md:flex max-md:flex-col max-md:bg-white max-md:rounded-bl-2xl max-md:rounded-br-2xl'>
-        <button className=' bg-white w-32 h-12 max-md:border-r max-md:rounded-none max-md:border-b rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:text-sm' onClick={() => navigate("/Tecrubelerim")}>Tecrübelerim</button>
-        <button className=' mr-16 ml-4 max-md:mr-24 max-md:border-r max-md:ml-0 max-md:rounded-none bg-white w-32 h-12 rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:text-sm max-md:rounded-bl-2xl' onClick={() => navigate("/Freelance")}>Freelance</button>
+        <button className=' bg-white w-32 h-12 max-md:border-r max-md:rounded-none max-md:border-b rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:text-sm max-md:h-10' onClick={() => navigate("/Tecrubelerim")}>Tecrübelerim</button>
+        <button className=' mr-16 ml-4 max-md:mr-24 max-md:border-r max-md:ml-0 max-md:rounded-none bg-white w-32 h-12 rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:text-sm max-md:rounded-bl-2xl max-md:h-10' onClick={() => navigate("/Freelance")}>Freelance</button>
       </span>
-      <span onClick={() => navigate("/")} className=' max-md:mb-0 max-md:rounded-none active:scale-100 bg-white w-24 h-24 absolute rounded-3xl drop-shadow-sm flex items-end pb-4 justify-center hover:drop-shadow-xl hover:scale-110 z-10 transition-all cursor-pointer max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:pb-9'>
+      <span onClick={() => navigate("/")} className=' max-md:mb-0 max-md:rounded-none active:scale-100 bg-white w-24 h-24 absolute rounded-3xl drop-shadow-sm flex items-end pb-4 justify-center hover:drop-shadow-xl hover:scale-110 z-10 transition-all cursor-pointer max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:pb-9 max-md:rounded-b-xl'>
         <FaHome/>
       </span>
       <span className='max-md:flex max-md:flex-col'>
-        <button className=' ml-16 mr-4 max-md:mr-0 max-md:border-b max-md:border-l max-md:ml-0 max-md:rounded-none bg-white w-32 h-12 rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:text-sm'onClick={() => navigate("/Projelerim")}>Projelerim</button>
-        <button className=' bg-white w-32 h-12 max-md:border-l max-md:rounded-none rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:text-sm max-md:rounded-br-2xl' onClick={() => navigate("/Iletisim")}>İletişim</button>
+        <button className=' ml-16 mr-4 max-md:mr-0 max-md:border-b max-md:border-l max-md:ml-0 max-md:rounded-none bg-white w-32 h-12 rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:text-sm max-md:h-10'onClick={() => navigate("/Projelerim")}>Projelerim</button>
+        <button className=' bg-white w-32 h-12 max-md:border-l max-md:rounded-none rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none max-md:text-sm max-md:rounded-br-2xl max-md:h-10' onClick={() => navigate("/Iletisim")}>İletişim</button>
       </span>
     </div>
 </div>
