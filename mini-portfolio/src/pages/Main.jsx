@@ -1,10 +1,5 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
-import Ito from "../img/ito.jpg"
-import Raven from "../img/ravensoft.png"
-import SBU from "../img/sbu.webp"
-import TKBB from "../img/tkbb.jpg"
-import Payna from "../img/payna.jpg"
 import NU from "../img/nisantasilogo.png"
 import { FaHtml5, FaPhp } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -12,19 +7,20 @@ import { BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
 import { DiDotnet } from 'react-icons/di'
-import Prof from './Prof'
 import  Pj1 from "../img/1.png"
-import  Pj2 from "../img/2.png"
 import  Pj3 from "../img/3.png"
 import  Pj4 from "../img/4.png"
-import  Pj5 from "../img/5.png"
 import  Pj6 from "../img/6.png"
 import  Pj7 from "../img/7.png"
 import  Pj8 from "../img/8.png"
 import { IoMdDownload } from "react-icons/io";
 import CV from "../uploads/efeyilmazer-cv.pdf"
+import { useNavigate } from 'react-router-dom';
 
 const Main = () => {
+
+  const navigate = useNavigate();
+
   return (
     <div>
         <Navbar />
@@ -61,13 +57,13 @@ const Main = () => {
             </div>
           </div>
           <div className='slider2 h-44 bg-white/70 pt-1 mt-8 max-md:w-[1500px] max-md:ml-[1000px]'>
-            <div className='list flex gap-12'>
-              <span className='item1 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj8} alt="" /></span>
-              <span className='item2 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj4} alt="" /></span>
-              <span className='item3 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj3} alt="" /></span>
-              <span className='item4 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj7} alt="" /></span>
-              <span className='item5 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj1} alt="" /></span>
-              <span className='item6 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj6} alt="" /></span>
+            <div onClick={() => navigate("/Projelerim")} className='list flex gap-12'>
+              <span className='item1 w-64 h-96 pt-2 opacity-50 max-md:opacity-90 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj8} alt="" /></span>
+              <span className='item2 w-64 h-96 pt-2 opacity-50 max-md:opacity-90 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj4} alt="" /></span>
+              <span className='item3 w-64 h-96 pt-2 opacity-50 max-md:opacity-90 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj3} alt="" /></span>
+              <span className='item4 w-64 h-96 pt-2 opacity-50 max-md:opacity-90 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj7} alt="" /></span>
+              <span className='item5 w-64 h-96 pt-2 opacity-50 max-md:opacity-90 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj1} alt="" /></span>
+              <span className='item6 w-64 h-96 pt-2 opacity-50 max-md:opacity-90 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj6} alt="" /></span>
             </div>
           </div>
         </div>
