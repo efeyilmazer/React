@@ -43,7 +43,7 @@ const Main = () => {
                   React ile Tatil ve Uçak rezervasyonu uygulaması geliştirdim.</h1>
             </span>
           </div>
-          <div className='slider h-12 bg-white/70 pt-1 max-sm:invisible'>
+          <div className='slider h-12 bg-white/70 pt-1 max-md:w-[1500px]'>
             <div className='list flex gap-12'>
               <span className='item item1 flex items-center justify-center gap-2 text-4xl text-[#ff5733]/50'><FaHtml5/>HTML</span>
               <span className='item item2 flex items-center justify-center gap-2 text-4xl text-[#2965f1]/50'><FaCss3Alt/>CSS</span>
@@ -55,7 +55,7 @@ const Main = () => {
               <span className='item item8 flex items-center justify-center gap-2 text-4xl text-[#512BD4]/50'><DiDotnet/>.NET</span>
             </div>
           </div>
-          <div className='slider2 h-44 bg-white/70 pt-1 mt-8 max-sm:invisible'>
+          <div className='slider2 h-44 bg-white/70 pt-1 mt-8 max-md:w-[1500px]'>
             <div className='list flex gap-12'>
               <span className='item1 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj8} alt="" /></span>
               <span className='item2 w-64 h-96 pt-2 opacity-50 hover:opacity-100 transition-all cursor-pointer'><img className='rounded-3xl' src={Pj4} alt="" /></span>
