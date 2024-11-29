@@ -39,7 +39,7 @@ const Main = () => {
               <h1 className='text-2xl mr-4 max-md:text-sm max-md:mb-4 max-md:pt-4'>Nişantaşı Üniversitesi / Yönetim Bilişim Sistemleri</h1>
               <h1 className='max-md:absolute max-md:invisible'>(2019-2024)</h1>
                 </span>
-                <h1 className='text-2xl max-md:text-sm max-md:mb-2'>Nişantaşı Üniversitesi / C1+ Advanced English</h1>
+                <h1 className='text-2xl max-md:absolute max-md:invisible'>Nişantaşı Üniversitesi / C1+ Advanced English</h1>
                 <div className='flex items-center justify-between'>
                 <h1 className='max-sm:invisible max-md:absolute'> Eğitim hayatım boyunca çeşitli projelerde yer aldım, <br/>
                   SQL ve .NET kullanarak Personel maaş takip programı geliştirdim. <br/>
