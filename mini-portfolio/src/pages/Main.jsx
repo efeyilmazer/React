@@ -32,19 +32,19 @@ const Main = () => {
         <div className='flex flex-col items-center w-screen h-scroll bg-white/10 pt-14'>
           <h1 className='text-2xl pb-4 font-display'>Merhaba, Ben Efe!</h1>
           <p className='w-[1200px] text-xl text-center pb-12 max-md:w-[350px] max-sm:text-pretty'>2019 yılından itibaren Front-End kapsamında kendimi bir Software Developer gözetimi ve takibi altında geliştirmekteyim. <br/> Kendimi geliştirdiğim süre boyunca bu alanda 150'den fazla proje geliştirdim. Daha önce iki startup projesinde Front-End developer olarak yer aldım. Haftalık tasklar şeklinde çalıştığım projede takım çalışmasını ve sahada proje geliştirme deneyimini elde ettim. <br/> Hazırlık sınıfını okul birincisi olarak bitirdim ve ileri Düzey İngilizce bilgisine sahibim.</p>
-          <div className='max-sm:h-48 flex mb-12 bg-white/60 rounded-3xl p-8 drop-shadow-md shadow-inner'>
-            <img src={NU} className='w-48 max-sm:h-32'></img>
+          <div className='max-md:h-40 flex mb-12 bg-white/60 rounded-3xl p-8 drop-shadow-md shadow-inner overflow-hidden'>
+            <img src={NU} className='w-48 max-sm:h-24'></img>
             <span className='flex justify-center flex-col'>
               <span className='flex justify-between items-center'>
-              <h1 className='text-2xl mr-4 max-sm:text-xl'>Nişantaşı Üniversitesi / Yönetim Bilişim Sistemleri</h1>
+              <h1 className='text-2xl mr-4 max-md:text-sm max-md:mb-4 max-md:pt-4'>Nişantaşı Üniversitesi / Yönetim Bilişim Sistemleri</h1>
               <h1 className='max-md:absolute max-md:invisible'>(2019-2024)</h1>
                 </span>
-                <h1 className='text-2xl max-md:absolute max-sm:invisible'>Nişantaşı Üniversitesi / C1+ Advanced English</h1>
+                <h1 className='text-2xl max-md:text-sm max-md:mb-2'>Nişantaşı Üniversitesi / C1+ Advanced English</h1>
                 <div className='flex items-center justify-between'>
                 <h1 className='max-sm:invisible max-md:absolute'> Eğitim hayatım boyunca çeşitli projelerde yer aldım, <br/>
                   SQL ve .NET kullanarak Personel maaş takip programı geliştirdim. <br/>
                   React ile Tatil ve Uçak rezervasyonu uygulaması geliştirdim.</h1>
-                  <a href={CV} download className='text-xl cursor-pointer flex items-center justify-center gap-2 border mb-4 pr-4 pl-4 pt-2 pb-2 bg-white/60 rounded-3xl'><IoMdDownload/>CV</a>
+                  <a href={CV} download className='max-md:p-0 max-md:pr-2 max-md:pl-2 text-xl cursor-pointer flex items-center justify-center gap-2 border mb-4 pr-4 pl-4 pt-2 pb-2 bg-white/60 rounded-3xl'><IoMdDownload/>CV</a>
                 </div>
             </span>
           </div>
