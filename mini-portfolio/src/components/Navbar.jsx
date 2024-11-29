@@ -16,9 +16,9 @@ const Navbar = () => {
     <span className='text-3xl opacity-50 hover:opacity-100 cursor-pointer active:scale-90'><a href="http://instagram.com/efeyilmazer.1" target='_blank'><FaInstagramSquare color='#C13584'/></a></span>
   </div>
 <div className='bg-white w-screen max-md:w-screen h-20 flex justify-center items-center drop-shadow-md shadow-inner mt-8 gap-4 z-30'>
-            <h1 className='text-3xl text-end w-[250px] font-display max-sm:text-sm'>&lt; Efe <br/> Yılmazer</h1>
+            <h1 className='text-3xl text-end w-[250px] font-display max-sm:text-sm max-md:w-24'>&lt; Efe <br/> Yılmazer</h1>
             <img className='rounded-full w-32 shadow-md shadow-current max-sm:w-24' src={Ben}></img>
-            <h1 className='text-3xl w-[250px] font-display max-md:text-sm max-md:w-48'>React Developer /&gt;</h1>
+            <h1 className='text-3xl w-[250px] font-display max-md:text-sm max-md:w-24'>React Developer /&gt;</h1>
             <div className='absolute right-2 bottom-0'>
             <a href="http://github.com/efeyilmazer" target='blank' class=" font-display mt-8 relative w-[max-content] font-mono before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black hover:text-[17px] transition-all max-sm:invisible animate-pulse">&gt; github.com/efeyilmazer</a>
             </div>
