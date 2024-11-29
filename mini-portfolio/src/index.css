@@ -14,11 +14,12 @@
 }
 
 html {
+  max-width: 100%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 body {
+  overflow-x: hidden;
   background: fixed ;
   background-image: linear-gradient(#eefcff , #f6f6d4);
   background-size: cover;
