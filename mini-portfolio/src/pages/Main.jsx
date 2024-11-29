@@ -27,7 +27,7 @@ const Main = () => {
       <div>
         <div className='flex flex-col items-center w-screen h-scroll bg-white/10 pt-14'>
           <h1 className='text-2xl pb-4 font-display'>Merhaba, Ben Efe!</h1>
-          <p className='w-[1200px] text-xl text-center pb-12 max-md:w-[350px] max-sm:text-pretty'>2019 yılından itibaren Front-End kapsamında kendimi bir Software Developer gözetimi ve takibi altında geliştirmekteyim. <br/> Kendimi geliştirdiğim süre boyunca bu alanda 150'den fazla proje geliştirdim. Daha önce iki startup projesinde Front-End developer olarak yer aldım. Haftalık tasklar şeklinde çalıştığım projede takım çalışmasını ve sahada proje geliştirme deneyimini elde ettim. <br/> Hazırlık sınıfını okul birincisi olarak bitirdim ve ileri Düzey İngilizce bilgisine sahibim.</p>
+          <p className='w-[1200px] text-xl text-center pb-12 max-md:w-[350px] max-sm:text-pretty max-md:text-sm'>2019 yılından itibaren Front-End kapsamında kendimi bir Software Developer gözetimi ve takibi altında geliştirmekteyim. <br/> Kendimi geliştirdiğim süre boyunca bu alanda 150'den fazla proje geliştirdim. Daha önce iki startup projesinde Front-End developer olarak yer aldım. Haftalık tasklar şeklinde çalıştığım projede takım çalışmasını ve sahada proje geliştirme deneyimini elde ettim. <br/> Hazırlık sınıfını okul birincisi olarak bitirdim ve ileri Düzey İngilizce bilgisine sahibim.</p>
           <div className='max-md:h-40 flex mb-12 bg-white/60 rounded-3xl p-8 drop-shadow-md shadow-inner overflow-hidden'>
             <img src={NU} className='w-48 max-sm:h-24'></img>
             <span className='flex justify-center flex-col'>
