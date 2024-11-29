@@ -28,7 +28,7 @@ const Navbar = () => {
         <button className=' bg-white w-32 h-12 max-md:border-r max-md:rounded-none max-md:border-b rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none' onClick={() => navigate("/Tecrubelerim")}>Tecrübelerim</button>
         <button className=' mr-16 ml-4 max-md:mr-24 max-md:border-r max-md:ml-0 max-md:rounded-none bg-white w-32 h-12 rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100 max-md:hover:scale-100 max-md:hover:drop-shadow-none' onClick={() => navigate("/Freelance")}>Freelance</button>
       </span>
-      <span onClick={() => navigate("/")} className=' max-md:mb-0 mb-48 max-md:rounded-none active:scale-100 bg-white w-24 h-24 absolute rounded-3xl drop-shadow-sm flex items-end pb-4 justify-center hover:drop-shadow-xl hover:scale-110 z-10 transition-all cursor-pointer max-md:hover:scale-100 max-md:hover:drop-shadow-none'>
+      <span onClick={() => navigate("/")} className=' max-md:mb-0 max-md:rounded-none active:scale-100 bg-white w-24 h-24 absolute rounded-3xl drop-shadow-sm flex items-end pb-4 justify-center hover:drop-shadow-xl hover:scale-110 z-10 transition-all cursor-pointer max-md:hover:scale-100 max-md:hover:drop-shadow-none'>
         <FaHome/>
       </span>
       <span className='max-md:flex max-md:flex-col'>

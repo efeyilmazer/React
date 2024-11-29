@@ -21,6 +21,8 @@ import  Pj5 from "../img/5.png"
 import  Pj6 from "../img/6.png"
 import  Pj7 from "../img/7.png"
 import  Pj8 from "../img/8.png"
+import { IoMdDownload } from "react-icons/io";
+import CV from "../uploads/efeyilmazer-cv.pdf"
 
 const Main = () => {
   return (
@@ -38,9 +40,12 @@ const Main = () => {
               <h1 className='max-md:absolute max-md:invisible'>(2019-2024)</h1>
                 </span>
                 <h1 className='text-2xl max-md:absolute max-sm:invisible'>Nişantaşı Üniversitesi / C1+ Advanced English</h1>
-              <h1 className='max-sm:invisible max-md:absolute'> Eğitim hayatım boyunca çeşitli projelerde yer aldım, <br/>
+                <div className='flex items-center justify-between'>
+                <h1 className='max-sm:invisible max-md:absolute'> Eğitim hayatım boyunca çeşitli projelerde yer aldım, <br/>
                   SQL ve .NET kullanarak Personel maaş takip programı geliştirdim. <br/>
                   React ile Tatil ve Uçak rezervasyonu uygulaması geliştirdim.</h1>
+                  <a href={CV} download className='text-xl cursor-pointer flex items-center justify-center gap-2 border mb-4 pr-4 pl-4 pt-2 pb-2 bg-white/60 rounded-3xl'><IoMdDownload/>CV</a>
+                </div>
             </span>
           </div>
           <div className='slider h-12 bg-white/70 pt-1 max-md:w-[1500px] max-md:mr-[1000px]'>
