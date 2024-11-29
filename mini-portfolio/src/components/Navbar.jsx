@@ -18,7 +18,7 @@ const Navbar = () => {
 <div className='bg-white w-screen max-md:w-screen h-20 flex justify-center items-center drop-shadow-md shadow-inner mt-8 gap-4 z-30'>
             <h1 className='text-3xl text-end w-[250px] font-display max-sm:text-sm'>&lt; Efe <br/> Yılmazer</h1>
             <img className='rounded-full w-32 shadow-md shadow-current max-sm:w-24' src={Ben}></img>
-            <h1 className='text-3xl w-[250px] font-display max-md:text-sm max-md:w-72'>React Developer /&gt;</h1>
+            <h1 className='text-3xl w-[250px] font-display max-md:text-sm max-md:w-60'>React Developer /&gt;</h1>
             <div className='absolute right-2 bottom-0'>
             <a href="http://github.com/efeyilmazer" target='blank' class=" font-display mt-8 relative w-[max-content] font-mono before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black hover:text-[17px] transition-all max-sm:invisible animate-pulse">&gt; github.com/efeyilmazer</a>
             </div>
@@ -26,14 +26,14 @@ const Navbar = () => {
     <div className='flex items-center justify-center w-[720px] text-xl'>
       <span className='max-md:flex max-md:flex-col max-md:bg-white'>
         <button className=' bg-white w-32 h-12 max-md:rounded-none rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100' onClick={() => navigate("/Tecrubelerim")}>Tecrübelerim</button>
-        <button className=' mr-16 ml-4 max-md:mr-24 max-md:ml-0 max-md:rounded-none bg-white w-32 h-12 rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100' onClick={() => navigate("/Freelance")}>Freelance</button>
+        <button className=' mr-16 ml-4 max-md:mr-24 max-md:ml-0 max-md:rounded-bl-2xl bg-white w-32 h-12 rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100' onClick={() => navigate("/Freelance")}>Freelance</button>
       </span>
       <span onClick={() => navigate("/")} className=' max-md:mb-0 mb-48 active:scale-100 bg-white w-24 h-24 absolute rounded-3xl drop-shadow-sm flex items-end pb-4 justify-center hover:drop-shadow-xl hover:scale-110 z-10 transition-all cursor-pointer'>
         <FaHome/>
       </span>
       <span className='max-md:flex max-md:flex-col'>
         <button className=' ml-16 mr-4 max-md:mr-0 max-md:ml-0 max-md:rounded-none bg-white w-32 h-12 rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100'onClick={() => navigate("/Projelerim")}>Projelerim</button>
-        <button className=' bg-white w-32 h-12 max-md:rounded-none rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100' onClick={() => navigate("/Iletisim")}>İletişim</button>
+        <button className=' bg-white w-32 h-12 max-md:rounded-br-2xl rounded-b-2xl hover:drop-shadow-xl hover:scale-110 transition-all drop-shadow-sm active:scale-100' onClick={() => navigate("/Iletisim")}>İletişim</button>
       </span>
     </div>
 </div>
