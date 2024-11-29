@@ -22,11 +22,17 @@ const Iletisim = () => {
           <FaPhoneAlt/>
           <h1>+90 539 897 38 75</h1>
         </span>
-        <span className='flex justify-center items-center gap-2 text-2xl mb-12'>
+        <span className='flex justify-center items-center gap-2 text-2xl mb-2'>
           <IoIosMail/>
           <h1>efeyilmazer.dev@gmail.com</h1>
         </span>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12039.057536883003!2d29.105069872229006!3d41.03041046600982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1732478648982!5m2!1str!2str" width="500" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div className='flex items-center justify-center gap-2 mb-8'>
+    <span className='text-3xl cursor-pointer active:scale-90'><a href="http://github.com/efeyilmazer" target='_blank'><FaGithubSquare color='#2b3137'/></a></span>
+    <span className='text-3xl cursor-pointer active:scale-90'><a href="http://linkedin.com/in/efe-y%C4%B1lmazer-19b822228/" target='_blank'><FaLinkedin color='#0077B5'/></a></span>
+    <span className='text-3xl cursor-pointer active:scale-90'><a href="http://instagram.com/efeyilmazer.1" target='_blank'><FaInstagramSquare color='#C13584'/></a></span>
+  </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12039.057536883003!2d29.105069872229006!3d41.03041046600982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1732478648982!5m2!1str!2str" width="1200" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='mb-12 max-md:w-96 max-md:h-72'></iframe>
       </div>
     </div>
   )

@@ -57,7 +57,7 @@ import  Pj52 from "../img/52.png"
 
 const Projelerim = () => {
   return (
-    <div>
+    <div className='mb-12'>
       <Navbar/>
       <div className='flex flex-col items-center justify-center'>
       <h1 className='text-4xl mt-12 font-display mb-4'>Projelerim</h1>
